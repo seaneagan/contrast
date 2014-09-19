@@ -1,21 +1,5 @@
-contrast
-=======
 
-[![Build Status](https://drone.io/github.com/seaneagan/contrast/status.png)](https://drone.io/github.com/seaneagan/contrast/latest)
-
-Utilities for comparing (and contrasting) dart values:
-
-* Comparator combinators (by/compound/reverse/lexicographic/nullsFirst/nullsLast)
-* Comparison operator mixin (Quantity)(<, <=, ==, >, >=)
-* Find extrema of Comparables and Iterables (min/max/minOf/maxOf)
-* Test and obtain clamped comparables (clamp/between)
-* Test and obtain sorted iterables (sorted/isOrdered/isStrictlyOrdered)
-
-#Example
-
-```dart
-
-import 'package:compare/compare.dart';
+import 'package:contrast/contrast.dart';
 import 'dart:math' as math;
 
 main() {
@@ -87,4 +71,3 @@ class Point extends Object with Quantity<Point> {
   
   toString() => '($x, $y)';
 }
-```

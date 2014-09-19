@@ -1,0 +1,8 @@
+name: contrast
+version: 0.1.0
+author: Sean Eagan <seaneagan1@gmail.com>
+description: Utilities for comparing (and contrasting) dart values.
+homepage: http://github.com/seaneagan/contrast
+dev_dependencies:
+  quiver: '>=0.18.2 <0.20.0'
+  unittest: '>=0.11.0+2 <0.12.0'
