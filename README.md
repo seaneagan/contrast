@@ -15,7 +15,7 @@ Utilities for comparing (and contrasting) dart values:
 
 ```dart
 
-import 'package:compare/compare.dart';
+import 'package:contrast/contrast.dart';
 import 'dart:math' as math;
 
 main() {
